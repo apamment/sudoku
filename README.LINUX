@@ -1,0 +1,27 @@
+To build on Linux (Ubuntu/Debian),
+
+1. ensure you have a C compiler and make
+
+           apt-get install build-essential
+
+2. Make the build.sh script executable,
+
+           chmod +x build.sh
+
+3. Run the build script
+
+					 ./build.sh
+
+To run the door, execute the following command
+
+           ./sudoku /D[DROPFILE]
+
+where [DROPFILE] is the full path and filename of the dropfile.
+
+door32.sys doesn't work very well on linux.
+
+Ensure that the working directory is the Sudoku directory.
+
+For a full list of available options, type
+
+           ./sudoku /?
